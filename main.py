@@ -1,4 +1,4 @@
-
+## FUNCTIONS ##
 def stringConverter(string_to_convert):
     res = string_to_convert.upper()
     return res
@@ -11,6 +11,7 @@ def mixString(a, b):
     return res
 
 
+## MAIN ##
 str_input = input("Please enter a phrase\n")
 output = stringConverter(str_input)
 
