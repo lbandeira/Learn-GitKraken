@@ -9,8 +9,7 @@ def mixString(a, b):
         a=str.replace(a,a[2],b[2])
         res = a + " " + b
     return res
-
-
+    
 ## MAIN ##
 str_input = input("Please enter a phrase\n")
 output = stringConverter(str_input)
